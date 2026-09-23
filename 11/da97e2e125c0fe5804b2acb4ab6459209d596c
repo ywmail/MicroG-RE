@@ -1,0 +1,29 @@
+play-services-core/src/main/res/xml/credentials_provider_google_id.xml
+  s_371b8c94ecf03d::t_4c51ae71ac89a6 9
+play-services-basement/src/main/java/org/microg/gms/common/Constants.java
+  s_371b8c94ecf03d::t_694b094186a9c1 25
+play-services-core/src/main/AndroidManifest.xml
+  s_371b8c94ecf03d::t_5d82d1606fa4d5 231
+play-services-core/src/main/res/xml/backup_rules.xml
+  s_371b8c94ecf03d::t_d91f16f05ef282 3
+play-services-core/src/main/res/xml/data_extraction_rules.xml
+  s_371b8c94ecf03d::t_a00cb282e129b9 4,10
+build.gradle
+  s_371b8c94ecf03d::t_b44f94a791fe21 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "11da97e2e125c0fe5804b2acb4ab6459209d596c",
+  "prompts": {},
+  "sessions": {
+    "s_371b8c94ecf03d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5e79cfe0-a706-45d5-84e9-630de89f4216",
+        "model": "maas-glm-5.2"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
