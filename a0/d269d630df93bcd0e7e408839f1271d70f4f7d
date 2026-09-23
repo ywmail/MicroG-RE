@@ -1,0 +1,19 @@
+.github/workflows/release.yml
+  s_371b8c94ecf03d::t_9298adb765bbca 115-121
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a0d269d630df93bcd0e7e408839f1271d70f4f7d",
+  "prompts": {},
+  "sessions": {
+    "s_371b8c94ecf03d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5e79cfe0-a706-45d5-84e9-630de89f4216",
+        "model": "maas-glm-5.2"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
