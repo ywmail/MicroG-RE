@@ -9,6 +9,7 @@ object AppPatcherDetector {
 
     private val KNOWN_PACKAGES = listOf(
         ".morphe.android" to R.string.morphe,
+        ".ywmail.android" to R.string.morphe, // This fork patches apps under app.ywmail
         ".vanced.android" to R.string.vanced,
         ".revanced.android" to R.string.revanced,
         ".rex.android" to R.string.youtube_advanced,
@@ -21,6 +22,7 @@ object AppPatcherDetector {
     private val BLACKLIST_PACKAGES = listOf(
         "app.revanced.android.gms",
         "app.morphe.android.gms", // If it's happening in future
+        "app.ywmail.android.gms", // This fork ships MicroG under app.ywmail
         "app.morphe.manager",
         "app.revanced.manager",
         "app.rvx.manager"

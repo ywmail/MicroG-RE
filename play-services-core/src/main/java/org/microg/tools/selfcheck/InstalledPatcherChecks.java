@@ -19,11 +19,15 @@ import static org.microg.tools.selfcheck.SelfCheckGroup.Result.Negative;
 import static org.microg.tools.selfcheck.SelfCheckGroup.Result.Positive;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class InstalledPatcherChecks implements SelfCheckGroup {
 
-    private static final String MORPHE_PACKAGE_SUBSTRING = ".morphe.android";
+    private static final String[] MORPHE_PACKAGE_SUBSTRINGS = {
+            ".morphe.android",
+            ".ywmail.android" // This fork patches apps under app.ywmail
+    };
 
     @Override
     public String getGroupName(Context context) {
@@ -54,7 +58,7 @@ public class InstalledPatcherChecks implements SelfCheckGroup {
 
                 ChipInfo chip = new ChipInfo(label, icon, openAppListener);
 
-                if (pkgName.contains(MORPHE_PACKAGE_SUBSTRING)) {
+                if (Arrays.stream(MORPHE_PACKAGE_SUBSTRINGS).anyMatch(pkgName::contains)) {
                     if (!morpheNames.contains(label)) {
                         morpheChips.add(chip);
                         morpheNames.add(label);
