@@ -1,0 +1,23 @@
+play-services-core/src/main/java/org/microg/tools/selfcheck/InstalledPatcherChecks.java
+  s_8f7e320957b761::t_5c56162c6a47a5 27-30
+  s_8f7e320957b761::t_db4406ee01f957 22
+  s_8f7e320957b761::t_ee836219d28311 61
+play-services-base/core/src/main/kotlin/org/microg/gms/utils/AppPatcherDetector.kt
+  s_8f7e320957b761::t_d31af2fdda1031 12,25
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7fef21693001e3f05538fe4c2656eb3f1cfbfe5a",
+  "prompts": {},
+  "sessions": {
+    "s_8f7e320957b761": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "9b6d3dd0-03c7-4cd3-aadd-ab18c688a860",
+        "model": "maas-glm-5.3"
+      },
+      "human_author": "y00798287 <yangwei1@huawei.com>"
+    }
+  }
+}
